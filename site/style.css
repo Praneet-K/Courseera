@@ -1,0 +1,36 @@
+
+		* {
+			box-sizing: border-box;
+			margin : 10px;
+			padding: 10px;
+			overflow: auto;
+		}
+		h1 {
+			color: red;
+			font-size:36px;
+			text-align:center;
+		}
+		p {
+			margin:0px;
+			box-sizing: border-box;
+			width :50%;
+			border:1px dotted yellow ;
+			float :left;
+		}
+		#praneet{
+			color:green;
+			background-color: yellow;
+			text-align: center;
+			width:450px;
+		}
+		.google{
+			color:#FFFF00;
+			background-color: maroon;
+			text-align: -left;
+			font-style: italic;
+			text-transform: capitalize;
+			font-weight: 900;
+
+			float: left;
+		}
+		section li:nth-child(odd):hover{font-size:24px;}
