@@ -34,3 +34,12 @@
 			float: left;
 		}
 		section li:nth-child(odd):hover{font-size:24px;}
+		@media (orientation:landscape){
+			#praneet{
+			color:yellow;
+			background-color: maroon;
+			text-align: center;
+			width:450px;
+			float:left;
+			}
+		}
