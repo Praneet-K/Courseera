@@ -61,7 +61,11 @@ body {
   font-size: 1.8em;
 }
 
- #call-btn > a {
+#call-btn{
+	margin:10px;
+}
+
+#call-btn > a {
   font-size: 1.5em;
   display: block;
   margin: 0 20px;
@@ -103,4 +107,11 @@ body {
 
 #pricetile:hover ,#maptile:hover{
 	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+@media (max-width: 768px)
+{
+	.navbar-brand h1{
+		font-size: 6vw;
+	}
 }
