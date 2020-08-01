@@ -1,0 +1,106 @@
+body {
+	background-color:#61122f;
+}
+
+/**Header**/
+#header-nav {
+	background-color: #f6b319;
+}
+
+#logo-img {
+	background:url(../images/KSN.jpeg) no-repeat green;
+	border:1px solid green;
+	width:150px;
+	height:150px;
+	margin:10px 15px 10px 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {
+	color:#557c3e;
+	font-size: 2em;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-shadow:1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height:  .75;
+}
+
+.navbar-brand a:hover,.navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid maroon;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: maroon;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  color:#fff;
+  background:maroon;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+ #call-btn > a {
+  font-size: 1.5em;
+  display: block;
+  margin: 0 20px;
+  padding: 10px;
+  border: 2px solid #fff;
+  background-color: #f6b319;
+  color: #951c49;
+}
+
+#pricetile{
+	background: url("../images/mango.jpg") no-repeat;
+	height:300px;
+	width:100%;
+	margin:0px;
+	border: 2px solid #3F0C1F;
+	background-position: center;
+}
+
+#maptile{
+	height:300px;
+	width:100%;
+	overflow:hidden;
+	margin:0px;
+	border: 2px solid #3F0C1F;
+}
+
+#pricetile span,#maptile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8
+}
+
+#pricetile:hover ,#maptile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
