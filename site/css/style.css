@@ -60,6 +60,8 @@ body {
 #nav-list a span {
   font-size: 1.8em;
 }
+/******header end************/
+/*********home page**********/
 
 #call-btn{
 	margin:10px;
@@ -82,6 +84,7 @@ body {
 	margin:0px;
 	border: 2px solid #3F0C1F;
 	background-position: center;
+	position: relative;
 }
 
 #maptile{
@@ -90,6 +93,7 @@ body {
 	overflow:hidden;
 	margin:0px;
 	border: 2px solid #3F0C1F;
+	position: relative;
 }
 
 #pricetile span,#maptile span{
@@ -108,6 +112,22 @@ body {
 #pricetile:hover ,#maptile:hover{
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
+/*********home end***********/
+/********footer*************/
+.panel-footer{
+	background-color: #222;
+	color:#fff;
+}
+@media(min-width: 968px){
+	.navbar-brand{
+		margin-top: 25px;
+	}
+	.navbar-brand h1{
+		font-size:3em;
+	}
+}
+
+
 
 @media (max-width: 768px)
 {
