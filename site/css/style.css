@@ -60,6 +60,13 @@ body {
 #nav-list a span {
   font-size: 1.8em;
 }
+
+a button{
+	background-color: inherit;
+	color:inherit;
+	border:none;
+	text-decoration: none;
+}
 /******header end************/
 /*********home page**********/
 
@@ -111,6 +118,15 @@ body {
 
 #pricetile:hover ,#maptile:hover{
 	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+marquee {
+	margin-top: 10px;
+	color:#fff;
+	height:2em;
+	font-size: 2em;
+	font-stretch: expanded;
+	scrollamount: 100;
 }
 /*********home end***********/
 /********footer*************/
