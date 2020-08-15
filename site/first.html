@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>KONDETI PRANEET</title>
@@ -10,7 +10,7 @@
  	Anatomy of css rule
  	<nav>navigates</nav>
  </header>
- <h1>
+ <h1 id="h1">
  	Praneet Kondeti
  </h1>
  <section>
@@ -26,9 +26,10 @@
  		<li><a href="#section2">section2</a></li>
  		<li><a href="#section3">section3</a></li>
  	</ul>
- 	<ol>
+ 	<ol  start="50" type=1>
  		<li>k</li>
  		<li>p</li>
+ 		<li>r</li>
  	</ol>
  </div>
 <section id="section2">
@@ -49,5 +50,56 @@
 	</ul>
 </section>
 <footer>copyrights &copy;KONDETIPRANEET</footer>
+<adress>1-1 rr,nagar</adress>
+<br>
+<table>KP
+	 <colgroup>
+    <col span="1" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+	<tr ><th>name</th><th>class</th></tr>
+	<tr><td>Kondetipraneet</td><td>btech</td></tr>
+	<tr><td><input type="number"></td><td><input type="date"></tr>
+</table>
+<input type="checkbox" name="lname">
+<input type="radio" name="name">
+<a href="mailto:kondetipraneet@gmail.com?subject=Hi&body=How%20are%20you">mail</a>
+<dialogue open>open a dialogue</dialogue>
+<details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+<audio controls>
+  <source src="D:\Music\Hindhi/Channa Mereya.mp3" type="audio/mp3">
+  Your browser does not support the audio tag.
+</audio>
+<video width="320" height="240" autoplay muted loop controls >
+  <source src="C:\Users\91988\Desktop/VID-20200523-WA0020.mp4#t=3" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+<marquee behavior="alternate" direction="left" scrollamount="25"  onmouseout="this.start()"><a href="first.html">kondetipraneet</a></marquee>
+<input id="title" type="text" name="title">
+<button id="sayit" >sayit</button>
+<div id="content"></div>
+<script type="text/javascript">
+	function sayHello() {
+	var name=
+		document.getElementById("title").value;
+		var message="hello "+name+"!";
+		document.getElementById("content").innerHTML="<h2>hi</h2>";
+		document.getElementById("content").textContent=message;
+		if(name===".")
+		{
+			var title=document.querySelector("h1").textContent;
+			title+="chowdary";
+			console.log(title)
+			document.querySelector("h1").textContent=title;
+		}
+	}
+	document.querySelector("#sayit").addEventListener("click",sayHello);
+	document.querySelector("marquee").onmouseover=function (){this.stop();
+	};
+</script>
 </body>
 </html>

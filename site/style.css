@@ -43,3 +43,24 @@
 			float:left;
 			}
 		}
+	  li { 
+     display: list-item !important;
+ }
+ table{
+ 	border:2px solid black;
+ }
+ tr ,td {
+ 	border:1px solid black;
+ }
+ marquee.onmouseover {
+ 	scrollamount:5;
+ }
+ a:link{
+ 	background: red;
+ 	text-decoration: none;
+ }
+ a:visited{
+ 	background: yellow;
+ 	color:red;
+ 	text-decoration: none;
+ }
