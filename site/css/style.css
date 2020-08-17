@@ -30,7 +30,7 @@ body {
 	line-height:  .75;
 }
 
-.navbar-brand a:hover,.navbar-brand a:focus {
+.navbar-brand a:hover,.navbar-brand a:active {
 	text-decoration: none;
 }
 
@@ -129,6 +129,14 @@ marquee {
 	scrollamount: 100;
 }
 /*********home end***********/
+/*********About**************/
+h1{
+	color:#fff;
+}
+#aboutp{
+	color:#fff;
+	font-size:1.2em;
+}
 /********footer*************/
 .panel-footer{
 	background-color: #222;
@@ -142,9 +150,6 @@ marquee {
 		font-size:3em;
 	}
 }
-
-
-
 @media (max-width: 768px)
 {
 	.navbar-brand h1{
