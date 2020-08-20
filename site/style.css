@@ -3,12 +3,13 @@
 			box-sizing: border-box;
 			margin : 10px;
 			padding: 10px;
-			overflow: auto;
+			/*overflow: auto;*/
 		}
 		h1 {
 			color: red;
 			font-size:36px;
 			text-align:center;
+			border-top-right-radius: 50%;
 		}
 		p {
 			margin:0px;
@@ -33,6 +34,64 @@
 
 			float: left;
 		}
+		.circle{
+			height:200px;
+			width:200px;
+			border-radius: 50%;
+		}
+		.linear{
+			background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+			float:left;
+		}
+		.radial{
+			background: radial-gradient(red,yellow,blue);
+			float:left;
+		}
+		.conic{
+			background: conic-gradient(red,yellow,blue);
+			float:left;
+		}
+		.transition{
+			clear:left;
+			height:200px;
+			width: 200px;
+			background:aquamarine;
+/*			transition: width 1s;
+			transition: height 1s;*/
+			transition-duration: 5s;
+			transition-timing-function: cubic-bezier(0.25,0.25,1,0.25);
+		}
+		.transition:hover{
+			width:400px;
+			/*height:400px;*/
+		}
+		.transform{
+			background: aqua;
+			transform:rotate(20deg);
+		}
+		.rotate:hover{
+			transition-duration: 2s;
+			transform: rotateX(360deg);
+			/*transform: translate3d(x,y,z);*/
+		}
+		.animie{
+			width:100px;
+			height:100px;
+			background: red;
+			position:relative;
+			animation-name: first;
+			animation-duration:3s;
+			animation-delay: 0s;
+			animation-fill-mode:both;
+			animation-iteration-count: infinite;
+		}
+		@keyframes first{
+			0% {background-color: :red;}
+			25% {background-color: yellow;}
+			  50%  {background-color:blue;}
+			  75%  {background-color:green;}
+			  100% {background-color:red;}
+		}
 		section li:nth-child(odd):hover{font-size:24px;}
 		@media (orientation:landscape){
 			#praneet{
@@ -52,9 +111,6 @@
  tr ,td {
  	border:1px solid black;
  }
- marquee.onmouseover {
- 	scrollamount:5;
- }
  a:link{
  	background: red;
  	text-decoration: none;
@@ -64,3 +120,4 @@
  	color:red;
  	text-decoration: none;
  }
+ 

@@ -46,13 +46,11 @@ body {
 #nav-list {
   margin-top: 10px;
 }
-
 #nav-list a {
   color: maroon;
   text-align: center;
 }
-
-#nav-list a:hover {
+#nav-list a:hover,#nav-list a:active {
   color:#fff;
   background:maroon;
 }
@@ -138,7 +136,13 @@ h1{
 	font-size:1.2em;
 }
 /********footer*************/
+#footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
 .panel-footer{
+	float:bottom;
 	background-color: #222;
 	color:#fff;
 }

@@ -82,13 +82,23 @@
 <input id="title" type="text" name="title">
 <button id="sayit" >sayit</button>
 <div id="content"></div>
+<div class="circle linear rotate"></div>
+<div class="circle radial"></div>
+<div class="circle conic"></div>
+<div class="transition"></div>
+<!--div class="transform">Transforming div</div-->
+<div class="animie">hihello</div>
+<script  src="css/ajax-utils.js" type="text/javascript"></script>
 <script type="text/javascript">
 	function sayHello() {
 	var name=
 		document.getElementById("title").value;
-		var message="hello "+name+"!";
-		document.getElementById("content").innerHTML="<h2>hi</h2>";
-		document.getElementById("content").textContent=message;
+		var message="";
+		var self=this;
+		console.log(name);
+		$ajaxUtils.sendGetRequest("name.txt",function (request){
+			self.message=request.responseText;
+			document.querySelector("#content").innerHTML="<h2>Hello"+name +self.message+"</h2>"		});
 		if(name===".")
 		{
 			var title=document.querySelector("h1").textContent;
@@ -101,5 +111,6 @@
 	document.querySelector("marquee").onmouseover=function (){this.stop();
 	};
 </script>
+<!--browser-sync start --server --directory --files "**/*"-->
 </body>
 </html>
