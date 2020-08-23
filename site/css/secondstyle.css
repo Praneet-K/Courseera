@@ -20,7 +20,7 @@ body {
   width: 3px;
   height: 100%;
   position: relative;
-  background-color: #00fede;
+  background-color: #56fe00;
   transition: all 0.5s ease;
 }
 .search.open {
@@ -58,7 +58,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 40px;
-  border: 3px solid #00fede;
+  border: 3px solid #56fe00;
   display: block;
   position: relative;
   margin-left: 5px;
@@ -72,7 +72,7 @@ body {
   right: -2px;
   top: 30px;
   display: block;
-  background-color: #00fede;
+  background-color: #56fe00;
   transform: rotate(-45deg);
   transition: all 0.5s ease;
 }
@@ -84,7 +84,7 @@ body {
   right: -12px;
   top: 40px;
   display: block;
-  background-color: #00fede;
+  background-color: #56fe00;
   transform: rotate(-45deg);
   transition: all 0.5s ease;
 }

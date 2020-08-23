@@ -43,39 +43,77 @@
           			</ul>
           		</div> <!--collapsable-nav-->
           	</div> <!--container-->
-        </nav>
-    </header>
- <label for="#input">Search</label>
- <input id="input" list="types">
- <datalist id="types">
- 	<option value="benishan"></option>
- 	<option value="benglura"></option>
- 	<option value="chendura"></option>
- </datalist>
-     <!--footer-->
-    <div class="panel-footer">
-    	<div class="container">
-    		<div id="Timings" class="col-sm-6">
-    			<span>Timings</span>
-    			<br>Mon:	6:00 – 8:00 AM, 6:30 – 10:00 PM
-				<br>Tue:	6:00 – 8:00 AM, 6:30 – 10:00 PM
-				<br>Wed:	6:00 – 8:00 AM, 6:30 – 10:00 PM
-				<br>Thu:	6:00 – 8:00 AM, 6:30 – 10:00 PM
-				<br>Fri:	6:00 – 8:00 AM, 6:30 – 10:00 PM
-				<br>Sat:	6:00 – 8:00 AM, 6:30 – 10:00 PM
-				<br>Sun:	Open 24 hours
-			</div>
-			<hr class="visible-xs"></hr>
-    		<div id="address" class="col-sm-6">
-    			<span>Adress:</span>
-    			<br>1-1,rr-nagar,beside SBI bank,Bangarupalyam,Chittoor,
-    			Pin:517416.
-    			</br>
-    		</div>
-    		<hr class="visible-xs"></hr>	
-        </div>
-        <div class="text-center">&copy;KSN mangofarms
-        </div>
+     </nav>
+  </header>
+
+
+
+
+<!--homepage begins-->
+  <div class="container">
+    <div class=" search">
+    <!-- <label for="#input">Search</label> -->
+      <input id="input" type="search" class="search-box" placeholder="search" list=types>
+      <span class="search-button">
+        <span class="search-icon"></span>
+      </span>
+      <datalist id="types">
+        <option value="benishan"></option>
+        <option value="benglura"></option>
+        <option value="chendura"></option>
+      </datalist>
+    </div>
+    <button id="s" type="submit" class="display">
+      Search
+    </button>
+    <div>
+    <table>
+      <tr>
+        <th>Type</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Benishan</td>
+        <td>70 Rs</td>
+      </tr>
+      <tr>
+        <td>Benglura</td>
+        <td>25 rs</td>
+      </tr>
+      <tr>
+        <td>Chendura</td>
+        <td>15 Rs</td>
+      </tr>
+    </table>
+  </div>
+  </div>
+
+
+<!--footer-->
+<div class="panel-footer">
+  <div class="container">
+    <div id="Timings" class="col-sm-6">
+      <span>Timings</span>
+      <br>Mon:	6:00 – 8:00 AM, 6:30 – 10:00 PM
+      <br>Tue:	6:00 – 8:00 AM, 6:30 – 10:00 PM
+      <br>Wed:	6:00 – 8:00 AM, 6:30 – 10:00 PM
+      <br>Thu:	6:00 – 8:00 AM, 6:30 – 10:00 PM
+      <br>Fri:	6:00 – 8:00 AM, 6:30 – 10:00 PM
+      <br>Sat:	6:00 – 8:00 AM, 6:30 – 10:00 PM
+      <br>Sun:	Open 24 hours
+    </div>
+    <hr class="visible-xs"></hr>
+    <div id="address" class="col-sm-6">
+      <span>Adress:</span>
+      <br>1-1,rr-nagar,beside SBI bank,Bangarupalyam,Chittoor,
+      Pin:517416.
+      </br>
+    </div>
+    <hr class="visible-xs"></hr>	
+  </div>
+  <div class="text-center">&copy;KSN mangofarms
+  </div>
+</div>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
