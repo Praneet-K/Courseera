@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #2a2e37;
+  background: yellow;
 }
 .search {
   width: 100px;
@@ -12,6 +12,7 @@ body {
   position: relative;
   overflow: hidden;
   transition: all 0.5s ease;
+  float:left;
 }
 .search:before {
   content: '';
@@ -104,4 +105,17 @@ body {
   right: 22px;
   top: 13px;
   height: 18px;
+}
+button{
+  width: 100px;
+  height: 100px;
+  margin: 40px auto 0;
+  background-color: #242628;
+  position: relative;
+  overflow: hidden;
+  color:#fff;
+  float:left;
+}
+.display{
+  display: none;
 }
